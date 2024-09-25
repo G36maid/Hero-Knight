@@ -15,12 +15,6 @@
      - `feature/ai-behavior`
    - After completing a feature, you can merge it into **dev** via a pull request.
 
-4. **Testing Workflow:**
-   - Set up automated tests using Unity's testing tools (like NUnit) and GitHub Actions for continuous integration.
-   - When a pull request is created, GitHub Actions can automatically run tests to ensure no new bugs are introduced.
-
----
-
 ### Example Git Commands for Your Workflow:
 
 1. **Creating a Dev Branch:**
@@ -42,5 +36,3 @@
    git merge feature/combat-system
    git push origin dev
    ```
-
-Would you like to integrate GitHub Actions for automated testing, or do you have a different specific Unity workflow in mind?
